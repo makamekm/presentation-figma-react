@@ -19,7 +19,7 @@ const IndexLayout: React.FC = ({ children, ...props }) => {
           { name: 'keywords', content: 'keyword' }
         ]}
       >
-        <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Yanone+Kaffeesatz&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Pathway+Gothic+One|Yanone+Kaffeesatz&display=swap" rel="stylesheet" />
       </Helmet>
       {children}
       <Loading active={loading} />
@@ -27,9 +27,9 @@ const IndexLayout: React.FC = ({ children, ...props }) => {
         body {
           padding: 0;
           margin: 0;
-          font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
-          background-color: #f3f7fa;
-          color: #4a4a4a;
+          font-family: 'Pathway Gothic One', 'Roboto', 'Open Sans', -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+          background-color: #292a2b;
+          color: #ffffff;
           max-width: 100vw;
           min-width: 100vw;
           overflow: hidden;

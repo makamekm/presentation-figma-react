@@ -1,5 +1,5 @@
 import React from 'react';
-
+import classNames from 'classnames';
 import { observer } from 'mobx-react';
 import { Frame1 } from '../design-system/frame1';
 import { Frame2 } from '../design-system/frame2';
@@ -46,11 +46,38 @@ const IndexPage = () => {
   }, [onKeyDown]);
   return (
     <>
-      <div className="frame">{frames[frame] && React.createElement(frames[frame])}</div>
+      <div key={frame} className="frame">
+        {frames[frame] && React.createElement(frames[frame])}
+      </div>
+      <div className="status">
+        {frame + 1} / {frames.length}
+      </div>
       <style jsx>{`
         .frame {
           height: 100vh;
           width: 100vw;
+          opacity: 0;
+          transition: all 2s;
+          animation: fadein 2s;
+          animation-fill-mode: forwards;
+          animation-play-state: initial;
+        }
+
+        .status {
+          position: absolute;
+          bottom: 20px;
+          right: 20px;
+          font-size: 26px;
+          opacity: 0.7;
+        }
+
+        @keyframes fadein {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
         }
       `}</style>
     </>
