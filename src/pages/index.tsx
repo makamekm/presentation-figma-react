@@ -15,10 +15,14 @@ const frames = [Frame1, Frame2, Frame3, Frame4, Frame5, Frame6, Frame7, Frame8];
 const IndexPage = () => {
   const [frame, setFrame] = React.useState(0);
   const nextFrame = React.useCallback(() => {
-    setFrame(frame + 1);
+    if (frame + 1 < frames.length) {
+      setFrame(frame + 1);
+    }
   }, [frame, setFrame]);
   const prevFrame = React.useCallback(() => {
-    setFrame(frame - 1);
+    if (frame - 1 >= 0) {
+      setFrame(frame - 1);
+    }
   }, [frame, setFrame]);
   const onKeyDown = React.useCallback(
     (e = window.event) => {
