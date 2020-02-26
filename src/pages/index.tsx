@@ -3,8 +3,14 @@ import React from 'react';
 import { observer } from 'mobx-react';
 import { Frame1 } from '../design-system/frame1';
 import { Frame2 } from '../design-system/frame2';
+import { Frame3 } from '../design-system/frame3';
+import { Frame4 } from '../design-system/frame4';
+import { Frame5 } from '../design-system/frame5';
+import { Frame6 } from '../design-system/frame6';
+import { Frame7 } from '../design-system/frame7';
+import { Frame8 } from '../design-system/frame8';
 
-const frames = [Frame1, Frame2];
+const frames = [Frame1, Frame2, Frame3, Frame4, Frame5, Frame6, Frame7, Frame8];
 
 const IndexPage = () => {
   const [frame, setFrame] = React.useState(0);

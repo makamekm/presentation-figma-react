@@ -1,13 +1,15 @@
 import * as React from 'react';
 import { observer } from 'mobx-react';
 
-export const Frame2Generated: React.FC<{}> = observer(props => {
+export const Frame8Generated: React.FC<{}> = observer(props => {
   return (
     <>
       <div className="figma-1">
-        <div id="5:7" className="figma-0">
-          <div className="figma-4">
-            <div id="5:8" className="figma-3"></div>
+        <div id="20:3" className="figma-0">
+          <div className="figma-5">
+            <div id="20:4" className="figma-4">
+              <span key="end">{`DEMO TIME`}</span>
+            </div>
           </div>
         </div>
       </div>
@@ -37,8 +39,8 @@ export const Frame2Generated: React.FC<{}> = observer(props => {
           debug-h: LEFT;
           debug-v: TOP;
           overflow: hidden;
-          background: linear-gradient(to bottom, rgba(229, 241, 255, 1) 0%, rgba(229, 241, 255, 1) 100%),
-            linear-gradient(to bottom, rgba(229, 241, 255, 1) 0%, rgba(229, 241, 255, 1) 100%);
+          background: linear-gradient(to bottom, rgba(41, 42, 43, 1) 0%, rgba(41, 42, 43, 1) 100%),
+            linear-gradient(to bottom, rgba(41, 42, 43, 1) 0%, rgba(41, 42, 43, 1) 100%);
           background-size: auto, auto;
         }
         .figma-1 {
@@ -46,30 +48,42 @@ export const Frame2Generated: React.FC<{}> = observer(props => {
           width: 100%;
           height: 100%;
         }
-        .figma-3 {
+        .figma-4 {
           position: relative;
           box-sizing: border-box;
           pointer-events: auto;
-          debug-h: LEFT_RIGHT;
-          margin-left: 95px;
-          margin-right: 95px;
-          flex-grow: 1;
-          debug-v: TOP_BOTTOM;
-          margin-top: 44px;
-          margin-bottom: 69px;
-          background: url(/images/653676638f7131d2a835bb24285b255183f845f7.png) center center no-repeat;
-          background-size: contain;
+          debug-h: CENTER;
+          width: 471px;
+          margin-left: -1px;
+          debug-v: CENTER;
+          height: 166px;
+          margin-top: 0px;
+          color: rgba(255, 255, 255, 1);
+          font-size: 144px;
+          font-weight: 400;
+          text-transform: uppercase;
+          font-family: Pathway Gothic One;
+          text-align: CENTER;
+          font-style: normal;
+          line-height: undefined%;
+          letter-spacing: 0px;
+          display: flex;
+          max-width: -webkit-fill-available;
+          align-content: center;
+          justify-content: center;
+          vertical-align: middle;
+          align-items: center;
         }
-        .figma-4 {
+        .figma-5 {
           position: absolute;
           display: flex;
-          pointer-events: none;
-          justify-content: stretch;
           width: 100%;
+          pointer-events: none;
+          justify-content: center;
+          align-items: center;
           height: 100%;
           top: 0px;
           left: 0px;
-          align-items: stretch;
         }
       `}</style>
     </>

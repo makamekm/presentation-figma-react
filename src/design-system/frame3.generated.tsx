@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { observer } from 'mobx-react';
 
-export const Frame2Generated: React.FC<{}> = observer(props => {
+export const Frame3Generated: React.FC<{}> = observer(props => {
   return (
     <>
       <div className="figma-1">
-        <div id="5:7" className="figma-0">
+        <div id="17:0" className="figma-0">
           <div className="figma-4">
-            <div id="5:8" className="figma-3"></div>
+            <div id="17:2" className="figma-3"></div>
           </div>
         </div>
       </div>
@@ -37,8 +37,8 @@ export const Frame2Generated: React.FC<{}> = observer(props => {
           debug-h: LEFT;
           debug-v: TOP;
           overflow: hidden;
-          background: linear-gradient(to bottom, rgba(229, 241, 255, 1) 0%, rgba(229, 241, 255, 1) 100%),
-            linear-gradient(to bottom, rgba(229, 241, 255, 1) 0%, rgba(229, 241, 255, 1) 100%);
+          background: linear-gradient(to bottom, rgba(236, 238, 242, 1) 0%, rgba(236, 238, 242, 1) 100%),
+            linear-gradient(to bottom, rgba(236, 238, 242, 1) 0%, rgba(236, 238, 242, 1) 100%);
           background-size: auto, auto;
         }
         .figma-1 {
@@ -51,13 +51,13 @@ export const Frame2Generated: React.FC<{}> = observer(props => {
           box-sizing: border-box;
           pointer-events: auto;
           debug-h: LEFT_RIGHT;
-          margin-left: 95px;
-          margin-right: 95px;
+          margin-left: 19px;
+          margin-right: 19px;
           flex-grow: 1;
           debug-v: TOP_BOTTOM;
-          margin-top: 44px;
-          margin-bottom: 69px;
-          background: url(/images/653676638f7131d2a835bb24285b255183f845f7.png) center center no-repeat;
+          margin-top: 51px;
+          margin-bottom: 52px;
+          background: url(/images/9e97330477f1d6371006202c23d853b75f8507f6.png) center center no-repeat;
           background-size: contain;
         }
         .figma-4 {

@@ -8,16 +8,14 @@ export const Frame1Generated: React.FC<{}> = observer(props => {
         <div id="3:2" className="figma-0">
           <div className="figma-5">
             <div id="3:4" className="figma-4">
-              <span key="end">Design Systems</span>
+              <span key="end">{`Design Systems`}</span>
             </div>
           </div>
           <div className="figma-10">
             <div id="3:3" className="figma-9">
-              <span className="figma-7" key="14">
-                Figma - React{' '}
-              </span>
+              <span className="figma-7" key="13">{`Figma - React`}</span>
               <span className="figma-8" key="end">
-                | Exporter
+                &nbsp;{`Exporter`}
               </span>
             </div>
           </div>
@@ -50,12 +48,12 @@ export const Frame1Generated: React.FC<{}> = observer(props => {
           </div>
           <div className="figma-21">
             <div id="5:3" className="figma-20">
-              <span key="end">+</span>
+              <span key="end">{`+`}</span>
             </div>
           </div>
           <div className="figma-25">
             <div id="5:4" className="figma-24">
-              <span key="end">=</span>
+              <span key="end">{`=`}</span>
             </div>
           </div>
           <div className="figma-28">
@@ -89,8 +87,8 @@ export const Frame1Generated: React.FC<{}> = observer(props => {
           debug-h: LEFT;
           debug-v: TOP;
           overflow: hidden;
-          background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%),
-            linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+          background: linear-gradient(to bottom, rgba(41, 42, 43, 1) 0%, rgba(41, 42, 43, 1) 100%),
+            linear-gradient(to bottom, rgba(41, 42, 43, 1) 0%, rgba(41, 42, 43, 1) 100%);
           background-size: auto, auto;
         }
         .figma-1 {
@@ -110,7 +108,7 @@ export const Frame1Generated: React.FC<{}> = observer(props => {
           margin-top: 100px;
           margin-bottom: 526px;
           min-height: 74px;
-          color: rgba(255, 255, 255, 1);
+          color: rgba(38, 201, 255, 1);
           font-size: 64px;
           font-weight: 400;
           text-transform: uppercase;
@@ -152,8 +150,8 @@ export const Frame1Generated: React.FC<{}> = observer(props => {
           box-sizing: border-box;
           pointer-events: auto;
           debug-h: CENTER;
-          width: 563px;
-          margin-left: 1px;
+          width: 528px;
+          margin-left: 0px;
           debug-v: TOP;
           margin-top: -485px;
           margin-bottom: 400px;
