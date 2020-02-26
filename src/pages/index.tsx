@@ -1,5 +1,4 @@
 import React from 'react';
-import classNames from 'classnames';
 import { observer } from 'mobx-react';
 import { Frame1 } from '../design-system/frame1';
 import { Frame2 } from '../design-system/frame2';
