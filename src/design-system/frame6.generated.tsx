@@ -16,13 +16,14 @@ export const Frame6Generated: React.FC<{}> = observer(props => {
               <span key="end">{`npm i -g figma-react`}</span>
             </div>
           </div>
-          <div className="figma-17">
-            <div id="18:81" className="figma-16">
+          <div className="figma-16">
+            <div id="18:81" className="figma-15">
               <span className="figma-11" key="11">{`figma-react`}</span>
               <span key="23">&nbsp;{`<file-key>`}&nbsp;</span>
-              <span className="figma-13" key="40">{`[figma-dev-token]`}</span>
-              <span key="41">&nbsp;{``}&nbsp;</span>
-              <span className="figma-15" key="end">{`<preset-name>`}</span>
+              <span className="figma-13" key="41">
+                {`[figma-dev-token]`}&nbsp;
+              </span>
+              <span className="figma-14" key="end">{`<preset-name>`}</span>
             </div>
           </div>
         </div>
@@ -142,13 +143,13 @@ export const Frame6Generated: React.FC<{}> = observer(props => {
           line-height: undefined%;
           letter-spacing: undefinedpx;
         }
-        .figma-15 {
+        .figma-14 {
           color: rgba(255, 213, 0, 1);
           font-style: normal;
           line-height: undefined%;
           letter-spacing: undefinedpx;
         }
-        .figma-16 {
+        .figma-15 {
           position: relative;
           box-sizing: border-box;
           pointer-events: auto;
@@ -176,7 +177,7 @@ export const Frame6Generated: React.FC<{}> = observer(props => {
           vertical-align: top;
           align-items: flex-start;
         }
-        .figma-17 {
+        .figma-16 {
           position: relative;
           display: flex;
           width: 100%;
