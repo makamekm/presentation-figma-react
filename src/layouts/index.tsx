@@ -18,7 +18,9 @@ const IndexLayout: React.FC = ({ children, ...props }) => {
           { name: 'description', content: 'Desctiption' },
           { name: 'keywords', content: 'keyword' }
         ]}
-      />
+      >
+        <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Yanone+Kaffeesatz&display=swap" rel="stylesheet" />
+      </Helmet>
       {children}
       <Loading active={loading} />
       <style global jsx>{`
