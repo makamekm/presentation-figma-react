@@ -22,11 +22,12 @@ export const Frame3Generated: React.FC<{}> = observer(props => {
         input:focus {
           outline: none;
         }
-        .vector :global(svg) {
+        .vector {
           left: 50%;
           top: 50%;
           transform: translateX(-50%) translateY(-50%);
           position: absolute;
+          overflow: visible !important;
         }
         .figma-0 {
           position: relative;
@@ -51,14 +52,15 @@ export const Frame3Generated: React.FC<{}> = observer(props => {
           box-sizing: border-box;
           pointer-events: auto;
           debug-h: LEFT_RIGHT;
+          width: 1114px;
           margin-left: 19px;
           margin-right: 19px;
           flex-grow: 1;
           debug-v: TOP_BOTTOM;
           margin-top: 51px;
           margin-bottom: 52px;
-          background: url(/images/9e97330477f1d6371006202c23d853b75f8507f6.png) center center no-repeat;
-          background-size: contain;
+          background: url(/images/17-2.png) center center no-repeat;
+          background-size: cover;
         }
         .figma-4 {
           position: absolute;

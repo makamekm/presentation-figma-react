@@ -19,7 +19,7 @@ const IndexLayout: React.FC = ({ children, ...props }) => {
           { name: 'keywords', content: 'keyword' }
         ]}
       >
-        <link href="https://fonts.googleapis.com/css?family=Roboto|Pathway+Gothic+One|Yanone+Kaffeesatz&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet" />
       </Helmet>
       {children}
       <Loading active={loading} />

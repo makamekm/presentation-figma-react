@@ -5,11 +5,9 @@ export const Frame8Generated: React.FC<{}> = observer(props => {
   return (
     <>
       <div className="figma-1">
-        <div id="20:3" className="figma-0">
-          <div className="figma-5">
-            <div id="20:4" className="figma-4">
-              <span key="end">{`DEMO TIME`}</span>
-            </div>
+        <div id="36:6" className="figma-0">
+          <div className="figma-4">
+            <div id="36:3" className="figma-3"></div>
           </div>
         </div>
       </div>
@@ -24,11 +22,12 @@ export const Frame8Generated: React.FC<{}> = observer(props => {
         input:focus {
           outline: none;
         }
-        .vector :global(svg) {
+        .vector {
           left: 50%;
           top: 50%;
           transform: translateX(-50%) translateY(-50%);
           position: absolute;
+          overflow: visible !important;
         }
         .figma-0 {
           position: relative;
@@ -48,42 +47,31 @@ export const Frame8Generated: React.FC<{}> = observer(props => {
           width: 100%;
           height: 100%;
         }
-        .figma-4 {
+        .figma-3 {
           position: relative;
           box-sizing: border-box;
           pointer-events: auto;
-          debug-h: CENTER;
-          width: 471px;
-          margin-left: -1px;
-          debug-v: CENTER;
-          height: 166px;
+          debug-h: LEFT_RIGHT;
+          width: 1151px;
+          margin-left: 0px;
+          margin-right: 1px;
+          flex-grow: 1;
+          debug-v: TOP_BOTTOM;
           margin-top: 0px;
-          color: rgba(255, 255, 255, 1);
-          font-size: 144px;
-          font-weight: 400;
-          text-transform: uppercase;
-          font-family: Pathway Gothic One;
-          text-align: CENTER;
-          font-style: normal;
-          line-height: undefined%;
-          letter-spacing: 0px;
-          display: flex;
-          max-width: -webkit-fill-available;
-          align-content: center;
-          justify-content: center;
-          vertical-align: middle;
-          align-items: center;
+          margin-bottom: 0px;
+          background: url(/images/1d528cfc5d6672d25bab06c396f189f0acbfef29.png) center center no-repeat;
+          background-size: contain;
         }
-        .figma-5 {
+        .figma-4 {
           position: absolute;
           display: flex;
-          width: 100%;
           pointer-events: none;
-          justify-content: center;
-          align-items: center;
+          justify-content: stretch;
+          width: 100%;
           height: 100%;
           top: 0px;
           left: 0px;
+          align-items: stretch;
         }
       `}</style>
     </>

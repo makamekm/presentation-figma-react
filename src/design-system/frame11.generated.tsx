@@ -1,24 +1,24 @@
 import * as React from 'react';
 import { observer } from 'mobx-react';
 
-export const Frame7Generated: React.FC<{}> = observer(props => {
+export const Frame11Generated: React.FC<{}> = observer(props => {
   return (
     <>
       <div className="figma-1">
-        <div id="30:0" className="figma-0">
+        <div id="32:1" className="figma-0">
           <div className="figma-5">
-            <div id="30:1" className="figma-4">
-              <span key="end">{`This is a product`}</span>
+            <div id="32:2" className="figma-4">
+              <span key="end">{`HOW extend functionality?`}</span>
             </div>
           </div>
           <div className="figma-9">
-            <div id="31:0" className="figma-8">
-              <span key="end">{`It generates a mockup from figma`}</span>
+            <div id="32:3" className="figma-8">
+              <span key="end">{`- write plugins & use Api in nodejs`}</span>
             </div>
           </div>
           <div className="figma-13">
-            <div id="32:0" className="figma-12">
-              <span key="end">{`The first version works only with react`}</span>
+            <div id="32:4" className="figma-12">
+              <span key="end">{`- add props for Node names in figma`}</span>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ export const Frame7Generated: React.FC<{}> = observer(props => {
           box-sizing: border-box;
           pointer-events: auto;
           debug-h: CENTER;
-          width: 355px;
+          width: 563px;
           margin-left: 1px;
           debug-v: TOP;
           margin-top: 104px;
@@ -99,15 +99,15 @@ export const Frame7Generated: React.FC<{}> = observer(props => {
           pointer-events: auto;
           z-index: 1;
           debug-h: LEFT_RIGHT;
-          width: 1152px;
-          margin-left: 0px;
-          margin-right: 0px;
+          width: 1127px;
+          margin-left: 12px;
+          margin-right: 13px;
           flex-grow: 1;
           debug-v: TOP;
-          margin-top: -458px;
-          margin-bottom: 367px;
+          margin-top: -452px;
+          margin-bottom: 361px;
           min-height: 91px;
-          color: rgba(255, 240, 177, 1);
+          color: rgba(255, 255, 255, 1);
           font-size: 72px;
           font-weight: 700;
           text-transform: uppercase;

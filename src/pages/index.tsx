@@ -8,8 +8,13 @@ import { Frame5 } from '../design-system/frame5';
 import { Frame6 } from '../design-system/frame6';
 import { Frame7 } from '../design-system/frame7';
 import { Frame8 } from '../design-system/frame8';
+import { Frame9 } from '../design-system/frame9';
+import { Frame10 } from '../design-system/frame10';
+import { Frame11 } from '../design-system/frame11';
+import { Frame12 } from '../design-system/frame12';
+import { Frame13 } from '../design-system/frame13';
 
-const frames = [Frame1, Frame2, Frame3, Frame4, Frame5, Frame6, Frame7, Frame8];
+const frames = [Frame1, Frame2, Frame3, Frame4, Frame5, Frame6, Frame7, Frame8, Frame9, Frame10, Frame11, Frame12, Frame13];
 
 const IndexPage = () => {
   const [frame, setFrame] = React.useState(0);
