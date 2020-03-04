@@ -8,17 +8,17 @@ export const Frame7Generated: React.FC<{}> = observer(props => {
         <div id="30:0" className="figma-0">
           <div className="figma-5">
             <div id="30:1" className="figma-4">
-              <span key="end">{`This is a product`}</span>
+              <span key="end">This is a product</span>
             </div>
           </div>
           <div className="figma-9">
             <div id="31:0" className="figma-8">
-              <span key="end">{`It generates a mockup from figma`}</span>
+              <span key="end">It generates a mockup from figma</span>
             </div>
           </div>
           <div className="figma-13">
             <div id="32:0" className="figma-12">
-              <span key="end">{`The first version works only with react`}</span>
+              <span key="end">The first version works only with react</span>
             </div>
           </div>
         </div>

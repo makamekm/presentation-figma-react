@@ -8,21 +8,23 @@ export const Frame10Generated: React.FC<{}> = observer(props => {
         <div id="18:50" className="figma-0">
           <div className="figma-5">
             <div id="18:54" className="figma-4">
-              <span key="end">{`HOW to use?`}</span>
+              <span key="end">HOW to use?</span>
             </div>
           </div>
           <div className="figma-9">
             <div id="18:63" className="figma-8">
-              <span key="end">{`npm i -g figma-react`}</span>
+              <span key="end">npm i -g figma-react</span>
             </div>
           </div>
           <div className="figma-17">
             <div id="18:81" className="figma-16">
-              <span key="0">{``}</span>
-              <span className="figma-12" key="11">{`figma-react`}</span>
+              <span key="0" />
+              <span className="figma-12" key="11">
+                figma-react
+              </span>
               <span key="23">&nbsp;{`<file-key>`}&nbsp;</span>
               <span className="figma-14" key="41">
-                {`[figma-dev-token]`}&nbsp;
+                [figma-dev-token]&nbsp;
               </span>
               <span className="figma-15" key="end">{`<preset-name>`}</span>
             </div>

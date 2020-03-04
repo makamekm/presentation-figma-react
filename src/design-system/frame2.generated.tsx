@@ -7,7 +7,7 @@ export const Frame2Generated: React.FC<{}> = observer(props => {
       <div className="figma-1">
         <div id="5:7" className="figma-0">
           <div className="figma-4">
-            <div id="5:8" className="figma-3"></div>
+            <div id="5:8" className="figma-3" />
           </div>
         </div>
       </div>

@@ -14,7 +14,9 @@
     }
   },
   "rules": {
-    "max-len": ["error", { "code": 140, "ignoreUrls": true }],
+    "max-len": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "react/jsx-props-no-spreading": "off",
     "import/prefer-default-export": "off",
     "@typescript-eslint/interface-name-prefix": "off",
     "@typescript-eslint/no-explicit-any": "off",

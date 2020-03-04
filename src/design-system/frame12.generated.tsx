@@ -8,23 +8,23 @@ export const Frame12Generated: React.FC<{}> = observer(props => {
         <div id="18:82" className="figma-0">
           <div className="figma-5">
             <div id="18:83" className="figma-4">
-              <span key="end">{`Links`}</span>
+              <span key="end">Links</span>
             </div>
           </div>
           <div className="figma-8">
-            <div id="18:86" className="figma-7"></div>
+            <div id="18:86" className="figma-7" />
           </div>
           <div className="figma-12">
             <div id="18:84" className="figma-11">
-              <span key="end">{`https://www.npmjs.com/package/figma-react`}</span>
+              <span key="end">https://www.npmjs.com/package/figma-react</span>
             </div>
           </div>
           <div className="figma-15">
-            <div id="20:2" className="figma-14"></div>
+            <div id="20:2" className="figma-14" />
           </div>
           <div className="figma-19">
             <div id="18:85" className="figma-18">
-              <span key="end">{`https://github.com/makamekm/figma-react`}</span>
+              <span key="end">https://github.com/makamekm/figma-react</span>
             </div>
           </div>
         </div>

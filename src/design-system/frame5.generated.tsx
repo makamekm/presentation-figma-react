@@ -8,40 +8,50 @@ export const Frame5Generated: React.FC<{}> = observer(props => {
         <div id="18:22" className="figma-0">
           <div className="figma-10">
             <div id="18:25" className="figma-9">
-              <span key="0">{``}</span>
-              <span className="figma-4" key="3">{`NEW`}</span>
+              <span key="0" />
+              <span className="figma-4" key="3">
+                NEW
+              </span>
               <span className="figma-5" key="10">
-                &nbsp;{`Design`}
+                &nbsp;Design
               </span>
               <br className="figma-6" key="br10" />
-              <span className="figma-7" key="11">{``}</span>
-              <span className="figma-8" key="end">{`Pipeline`}</span>
+              <span className="figma-7" key="11" />
+              <span className="figma-8" key="end">
+                Pipeline
+              </span>
             </div>
           </div>
           <div className="figma-21">
             <div id="18:23" className="figma-20">
-              <span key="0">{``}</span>
-              <span className="figma-13" key="5">{`Figma`}</span>
+              <span key="0" />
+              <span className="figma-13" key="5">
+                Figma
+              </span>
               <br className="figma-14" key="br5" />
-              <span className="figma-15" key="6">{``}</span>
-              <span className="figma-16" key="17">{`Figma-React`}</span>
+              <span className="figma-15" key="6" />
+              <span className="figma-16" key="17">
+                Figma-React
+              </span>
               <br className="figma-17" key="br17" />
-              <span className="figma-18" key="18">{``}</span>
-              <span className="figma-19" key="end">{`React`}</span>
+              <span className="figma-18" key="18" />
+              <span className="figma-19" key="end">
+                React
+              </span>
             </div>
           </div>
           <div className="figma-25">
             <div id="18:49" className="figma-24">
-              <span key="end">{`PRODUCTION READY`}</span>
+              <span key="end">PRODUCTION READY</span>
             </div>
           </div>
           <div className="figma-29">
             <div id="18:34" className="figma-28">
-              <span key="end">{`FIGMA REACT EXPORTER`}</span>
+              <span key="end">FIGMA REACT EXPORTER</span>
             </div>
           </div>
           <div className="figma-32">
-            <div id="18:32" className="figma-31"></div>
+            <div id="18:32" className="figma-31" />
           </div>
           <div className="figma-36">
             <div id="18:26" className="figma-35">
@@ -98,7 +108,7 @@ export const Frame5Generated: React.FC<{}> = observer(props => {
           </div>
           <div className="figma-44">
             <div id="18:24" className="figma-43">
-              <span key="end">{`EXPORT to ./src/design-sysyem`}</span>
+              <span key="end">EXPORT to ./src/design-sysTem</span>
             </div>
           </div>
         </div>

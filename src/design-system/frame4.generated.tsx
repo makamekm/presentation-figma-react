@@ -8,50 +8,64 @@ export const Frame4Generated: React.FC<{}> = observer(props => {
         <div id="18:0" className="figma-0">
           <div className="figma-10">
             <div id="18:5" className="figma-9">
-              <span key="0">{``}</span>
-              <span className="figma-4" key="3">{`Old`}</span>
+              <span key="0" />
+              <span className="figma-4" key="3">
+                Old
+              </span>
               <span className="figma-5" key="10">
-                &nbsp;{`Design`}
+                &nbsp;Design
               </span>
               <br className="figma-6" key="br10" />
-              <span className="figma-7" key="11">{``}</span>
-              <span className="figma-8" key="end">{`Pipeline`}</span>
+              <span className="figma-7" key="11" />
+              <span className="figma-8" key="end">
+                Pipeline
+              </span>
             </div>
           </div>
           <div className="figma-24">
             <div id="18:6" className="figma-23">
-              <span key="0">{``}</span>
-              <span className="figma-13" key="9">{`Photoshop`}</span>
+              <span key="0" />
+              <span className="figma-13" key="9">
+                Photoshop
+              </span>
               <br className="figma-14" key="br9" />
-              <span className="figma-15" key="10">{``}</span>
-              <span className="figma-16" key="16">{`Sketch`}</span>
+              <span className="figma-15" key="10" />
+              <span className="figma-16" key="16">
+                Sketch
+              </span>
               <br className="figma-17" key="br16" />
-              <span className="figma-18" key="17">{``}</span>
-              <span className="figma-19" key="25">{`Invision`}</span>
+              <span className="figma-18" key="17" />
+              <span className="figma-19" key="25">
+                Invision
+              </span>
               <br className="figma-20" key="br25" />
-              <span className="figma-21" key="26">{``}</span>
-              <span className="figma-22" key="end">{`Framer`}</span>
+              <span className="figma-21" key="26" />
+              <span className="figma-22" key="end">
+                Framer
+              </span>
             </div>
           </div>
           <div className="figma-27">
-            <div id="18:3" className="figma-26"></div>
+            <div id="18:3" className="figma-26" />
           </div>
           <div className="figma-31">
             <div id="18:4" className="figma-30">
-              <span key="end">{`+`}</span>
+              <span key="end">+</span>
             </div>
           </div>
           <div className="figma-37">
             <div id="18:35" className="figma-36">
-              <span key="0">{``}</span>
-              <span className="figma-34" key="2">{`NO`}</span>
+              <span key="0" />
+              <span className="figma-34" key="2">
+                NO
+              </span>
               <span className="figma-35" key="end">
-                &nbsp;{`Production READY`}
+                &nbsp;Production READY
               </span>
             </div>
           </div>
           <div className="figma-40">
-            <div id="18:2" className="figma-39"></div>
+            <div id="18:2" className="figma-39" />
           </div>
         </div>
       </div>

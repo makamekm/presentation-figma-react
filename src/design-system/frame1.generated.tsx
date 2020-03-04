@@ -8,15 +8,17 @@ export const Frame1Generated: React.FC<{}> = observer(props => {
         <div id="3:2" className="figma-0">
           <div className="figma-5">
             <div id="3:4" className="figma-4">
-              <span key="end">{`Design Systems`}</span>
+              <span key="end">Design Systems</span>
             </div>
           </div>
           <div className="figma-11">
             <div id="3:3" className="figma-10">
-              <span key="0">{``}</span>
-              <span className="figma-8" key="13">{`Figma - React`}</span>
+              <span key="0" />
+              <span className="figma-8" key="13">
+                Figma - React
+              </span>
               <span className="figma-9" key="end">
-                &nbsp;{`Exporter`}
+                &nbsp;Exporter
               </span>
             </div>
           </div>
@@ -56,20 +58,20 @@ export const Frame1Generated: React.FC<{}> = observer(props => {
             </div>
           </div>
           <div className="figma-18">
-            <div id="4:41" className="figma-17"></div>
+            <div id="4:41" className="figma-17" />
           </div>
           <div className="figma-22">
             <div id="5:3" className="figma-21">
-              <span key="end">{`+`}</span>
+              <span key="end">+</span>
             </div>
           </div>
           <div className="figma-26">
             <div id="5:4" className="figma-25">
-              <span key="end">{`=`}</span>
+              <span key="end">=</span>
             </div>
           </div>
           <div className="figma-29">
-            <div id="5:2" className="figma-28"></div>
+            <div id="5:2" className="figma-28" />
           </div>
         </div>
       </div>

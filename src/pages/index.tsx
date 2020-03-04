@@ -1,5 +1,6 @@
 import React from 'react';
 import { observer } from 'mobx-react';
+import { Frame0 } from '../design-system/frame0';
 import { Frame1 } from '../design-system/frame1';
 import { Frame2 } from '../design-system/frame2';
 import { Frame3 } from '../design-system/frame3';
@@ -14,7 +15,7 @@ import { Frame11 } from '../design-system/frame11';
 import { Frame12 } from '../design-system/frame12';
 import { Frame13 } from '../design-system/frame13';
 
-const frames = [Frame1, Frame2, Frame3, Frame4, Frame5, Frame6, Frame7, Frame8, Frame9, Frame10, Frame11, Frame12, Frame13];
+const frames = [Frame0, Frame1, Frame2, Frame3, Frame4, Frame5, Frame6, Frame7, Frame8, Frame9, Frame10, Frame11, Frame12, Frame13];
 
 const IndexPage = () => {
   const [frame, setFrame] = React.useState(0);

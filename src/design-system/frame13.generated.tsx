@@ -8,7 +8,7 @@ export const Frame13Generated: React.FC<{}> = observer(props => {
         <div id="20:3" className="figma-0">
           <div className="figma-5">
             <div id="20:4" className="figma-4">
-              <span key="end">{`DEMO TIME`}</span>
+              <span key="end">DEMO TIME</span>
             </div>
           </div>
         </div>

@@ -8,17 +8,17 @@ export const Frame11Generated: React.FC<{}> = observer(props => {
         <div id="32:1" className="figma-0">
           <div className="figma-5">
             <div id="32:2" className="figma-4">
-              <span key="end">{`HOW extend functionality?`}</span>
+              <span key="end">HOW extend functionality?</span>
             </div>
           </div>
           <div className="figma-9">
             <div id="32:3" className="figma-8">
-              <span key="end">{`- write plugins & use Api in nodejs`}</span>
+              <span key="end">- write plugins & use Api in nodejs</span>
             </div>
           </div>
           <div className="figma-13">
             <div id="32:4" className="figma-12">
-              <span key="end">{`- add props for Node names in figma`}</span>
+              <span key="end">- add props for Node names in figma</span>
             </div>
           </div>
         </div>
